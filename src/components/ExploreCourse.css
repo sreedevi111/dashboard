@@ -1,0 +1,33 @@
+.title1 {
+  color: #e08825;
+  margin-left: 75px;
+}
+
+.explore {
+  display: flex;
+  padding: 10px;
+}
+
+h1 {
+  width: 612px;
+  height: 144px;
+  left: 98px;
+  top: 279px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+button {
+  border-radius: 50px;
+  width: 188px;
+  height: 54px;
+  color: #e08825;
+  background-color: white;
+  border-color: #e08825;
+}
