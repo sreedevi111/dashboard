@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  justify-content: space-between;
+}
+
+.navbar > img {
+  flex: 0 0 25%;
+  width: 245px;
+  height: 121px;
+}
+
+.navbar .nav-menu {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-menu #search-icon {
+  width: 23px;
+  height: 23px;
+}
+.nav-menu #shopping-icon {
+  width: 27px;
+  height: 26px;
+}
+.nav-menu #bell-icon {
+  width: 20px;
+  height: 25px;
+}
