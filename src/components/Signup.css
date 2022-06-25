@@ -1,0 +1,38 @@
+.signup {
+  padding: 80px;
+  
+
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description{
+    margin-left: 109.83px;
+}
+
+h2 {
+  width: 430px;
+  height: 120px;
+  font-weight: 600;
+  font-size: 40px;
+  
+}
+
+.color {
+  color: #e08825;
+}
+
+
+p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+button{
+    border-radius: 30px;
+}
