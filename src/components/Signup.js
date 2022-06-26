@@ -1,10 +1,21 @@
 import React, {useState} from "react";
 import pic from "../assets/Group 3212.svg";
 import "./Signup.css";
-import LoginModal from "./Login-Modal";
+import Modal from 'react-modal';
+import LoginInput from "./LoginInput";
+
 
 function Signup() {
-  const [show, setShow] = useState(false);
+  const [modalIsOpen,setModalIsOpen] = useState(false);
+
+  const setModalIsOpenToTrue =()=>{
+      setModalIsOpen(true)
+  }
+
+  const setModalIsOpenToFalse =()=>{
+      setModalIsOpen(false)
+  }
+
   return (
     <div className="signup">
       <div className="row-1">
@@ -25,7 +36,11 @@ function Signup() {
             </p>
 
             <p>Coursera Learner Outcome Survey, India (2021)</p>
-            <div className="button-outline" onClick={() => alert("Login")}>Sign up</div>
+            <div className="button-outline" onClick={setModalIsOpenToTrue}>Sign up</div>
+            <Modal isOpen={modalIsOpen}>
+                <button onClick={setModalIsOpenToFalse}>x</button>
+                <LoginInput />
+            </Modal>
           </div>
         </div>
       </div>

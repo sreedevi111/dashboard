@@ -8,6 +8,7 @@ import Categories from './components/Categories';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import "./App.css"
+// import LoginInput from './components/LoginInput';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Categories />
       <Testimonials />
       <Footer />
+      {/* <LoginInput /> */}
     </div>
   )
 }
