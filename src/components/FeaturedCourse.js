@@ -1,58 +1,67 @@
 import React from "react";
 import "./FeaturedCourse.css";
-// import design from "../assets/Group 3174.svg";
-import design from "../assets/Group 3213.svg"
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import design from "../assets/Group 3213.svg";
+import rating from "../assets/Group 3141.svg";
 import card1 from "../assets/sb-blog-ds-quotes.svg";
 import card2 from "../assets/images (2).svg";
 import card3 from "../assets/Why-Python-Is-Used-For-Developing-Automated-Trading-Strategy.svg";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+
+// import Slider from "react-slick";
 
 function FeaturedCourse() {
   return (
-    <div>
+    <div className="featured-course">
+      <img src={design} alt="design" id="feature-abstract-image" />
       <div className="row1">
-        <img src={design} alt="design" />
-        <div className="column">
-          <h3>Featured Courses</h3>
-          <p>
-            Unlock the full potential of your organisation with imc’s learning
-            technology, e-learning content and strategy consultants.
-          </p>
+        <div className="feature-col">
+          <span className="title">Featured Courses</span>
+          <span className="feature-description">
+            <span>Unlock the full potential of your organisation with imc's learning</span>
+            <span>technology, e-learning content and strategy consultants.</span>
+          </span>
         </div>
       </div>
       <div className="row2">
-        
-        <Card style={{ width: "25rem" }}>
-          <Card.Img variant="top" src={card1} />
-          <Card.Body>
-            <Card.Title>Learn Python Programming Masterclass</Card.Title>
-            <Card.Text></Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+        <div className="card">
+          <img src={card1} alt="" />
+          <div className="card-contents">
+            <span className="card-title">
+              Learn Python Programming Masterclass
+            </span>
+            <span>Jose Portilla</span>
+            <div className="rating">
+              <img src={rating} alt="" />
+              <span id="rupee">₹5100</span>
+            </div>
+          </div>
+        </div>
 
-        <Card style={{ width: "25rem" }}>
-          <Card.Img variant="top" src={card2} />
-          <Card.Body>
-            <Card.Title>Learn Python Programming Masterclass </Card.Title>
-            <Card.Text></Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: "25rem" }}>
-          <Card.Img variant="top" src={card3} />
-          <Card.Body>
-            <Card.Title>Learn Python Programming Masterclass </Card.Title>
-            <Card.Text></Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+        <div className="card">
+          <img src={card2} alt="" />
+          <div className="card-contents">
+            <span className="card-title">
+              Learn Python Programming Masterclass
+            </span>
+            <span>Jose Portilla</span>
+            <div className="rating">
+              <img src={rating} alt="" />
+              <span id="rupee">₹5100</span>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <img src={card3} alt="" />
+          <div className="card-contents">
+            <span className="card-title">
+              Learn Python Programming Masterclass
+            </span>
+            <span>Jose Portilla</span>
+            <div className="rating">
+              <img src={rating} alt="" />
+              <span id="rupee">₹5100</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,111 @@
+.testimonials {
+  /* width: 1366px; */
+  width: 100%;
+  height: 770px;
+  background-color: #f7f7f7;
+}
+
+.title-testimonials {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.testimonial-partition {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 64px;
+}
+
+#testimonial-card {
+  width: 555px;
+  height: 410px;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  /* padding-top: 36px; */
+  /* padding-left : 45px; */
+  padding: 36px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#testimonial-card > img {
+  width: 46.75px;
+  height: 32.11px;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  
+}
+
+.testimonial-quote {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+
+  border: 1px solid rgba(0, 0, 0, 0.0001);
+}
+
+.testimonial-description {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  border: 1px solid rgba(0, 0, 0, 0.0001);
+}
+
+.author{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  
+}
+
+.author-col{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+
+#student{
+  font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+
+border: 1px solid rgba(0, 0, 0, 0.0001);
+display: flex;
+flex-direction: column;
+}
+
+#student >span{
+  font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.4;
+border: 1px solid rgba(0, 0, 0, 0.0001);
+}

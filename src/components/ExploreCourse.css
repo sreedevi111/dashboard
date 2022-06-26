@@ -1,33 +1,58 @@
-.title1 {
-  color: #e08825;
-  margin-left: 75px;
-}
-
 .explore {
   display: flex;
-  padding: 10px;
+  margin-left: 98px;
+  margin-top: 123px;
+}
+.explore-head1 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 72px;
+  color: #e08825;
 }
 
-h1 {
+.explore-head2 {
   width: 612px;
   height: 144px;
-  left: 98px;
-  top: 279px;
   font-weight: 700;
   font-size: 50px;
   line-height: 72px;
+  margin-top: -25px;
 }
 
-p {
+.explore-para {
+  width: 537px;
+  height: 70px;
+  font-family: "Cera Pro";
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  line-height: 32px;
 }
 
-button {
-  border-radius: 50px;
+.explore-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-outline {
   width: 188px;
   height: 54px;
+  border: 1px solid #e08825;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #e08825;
-  background-color: white;
-  border-color: #e08825;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 77px;
+  transition: 0.3s ;
+}
+
+.button-outline:hover {
+  background-color: #e49d4d;
+  color: white;
 }

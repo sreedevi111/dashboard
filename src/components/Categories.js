@@ -1,85 +1,54 @@
 import React from "react";
 import "./Categories.css";
-import { Card } from "react-bootstrap";
-import design from "../assets/design.svg";
-import development from "../assets/web-development.svg"
-import marketing from "../assets/business-and-finance.svg"
-import it from "../assets/cms.svg"
-import handshake from "../assets/handshake.svg";
-import programming from "../assets/programming.svg";
-import photography from "../assets/diaphragm.svg"
-import music from "../assets/music-notes.svg";
 
 function Categories() {
   return (
     <div className="categories">
       <div>
-        <h1 className="title">categories</h1>
+        <h1 className="title-categories">Categories</h1>
       </div>
       <div className="icon">
         <div className="icon-row1">
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={design} />
-            <Card.Body>
-              <Card.Title>Design</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={development} />
-            <Card.Body>
-              <Card.Title>Development</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={marketing} />
-            <Card.Body>
-              <Card.Title>Marketing</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={it} />
-            <Card.Body>
-              <Card.Title>IT and Software</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="card-categories design-card">
+          <span className="card-img design" > </span>
+            <span className="category-name">Design</span>
+          </div>
+          <div className="card-categories development-card">
+          <span className="card-img development" > </span>
+            <span className="category-name">Development</span>
+          </div>
+          <div className="card-categories marketing-card">
+          <span className="card-img marketing" > </span>
+            <span className="category-name">Marketing</span>
+          </div>
+          <div className="card-categories it-card">
+          <span className="card-img it" > </span>
+            <span className="category-name">IT & Software</span>
+          </div>
         </div>
         <div className="icon-row2">
-        <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={handshake} />
-            <Card.Body>
-              <Card.Title>Design</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={programming} />
-            <Card.Body>
-              <Card.Title>Development</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={photography} />
-            <Card.Body>
-              <Card.Title>Marketing</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "15rem" }}>
-            <Card.Img variant="top" src={music} />
-            <Card.Body>
-              <Card.Title>IT and Software</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-
+        <div className="card-categories business-card">
+          <span className="card-img business" > </span>
+            <span className="category-name">Business</span>
+          </div>
+          <div className="card-categories programming-card">
+          <span className="card-img programming" > </span>
+            <span className="category-name">Programming</span>
+          </div>
+          <div className="card-categories photography-card">
+          <span className="card-img photography" > </span>
+            <span className="category-name">Photography</span>
+          </div>
+          <div className="card-categories music-card">
+          <span className="card-img music" > </span>
+            <span className="category-name">Music</span>
+          </div>
         </div>
-        <div className="view"> <button >View All</button></div>
-        
+
+        <div className="view-button">
+          {" "}
+          <div className="button-outline">View All</div>
+        </div>
       </div>
     </div>
   );

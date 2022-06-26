@@ -1,13 +1,12 @@
-.title {
+/* .title {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* width: 227px;
-  height: 72px; */
+  
   font-weight: 700;
   font-size: 40px;
-}
-
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 .card-img-top {
   width: 50px;
 }
@@ -25,8 +24,115 @@
   justify-content: space-evenly;
 }
 
-.view{
+.view-button {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.card-img {
+  width: 65px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+.design {
+  background-image: url('../assets/design.svg');
+}
+.design-card:hover .design{
+  background-image: url('../assets/design\ white.svg');
+}
+
+.development{
+  background-image: url('../assets/web-development\ \(1\).svg');
+}
+
+.development-card:hover .development{
+  background-image: url('../assets/web-development\ \(2\).svg');
+}
+
+.marketing{
+  background-image: url("../assets/business-and-finance.svg");
+}
+
+.marketing-card:hover .marketing{
+  background-image: url('../assets/business-and-finance\ \(1\).svg');
+}
+
+.it{
+  background-image: url('../assets/cms.svg');
+}
+
+.it-card:hover .it{
+  background-image: url('../assets/cms\ \(1\).svg');
+}
+.business{
+  background-image: url('../assets/handshake.svg');
+}
+
+.business-card:hover .business{
+  background-image: url('../assets/handshake\ \(1\).svg');
+}
+.programming{
+  background-image: url('../assets/programming.svg');
+}
+
+.programming-card:hover .programming{
+  background-image: url('../assets/programming\ \(1\).svg');
+}
+.photography{
+  background-image: url('../assets/diaphragm.svg');
+}
+
+.photography-card:hover .photography{
+  background-image: url('../assets/diaphragm\ \(1\).svg');
+}
+.music{
+  background-image: url('../assets/music-notes.svg');
+}
+
+.music-card:hover .music{
+  background-image: url('../assets/music-notes\ \(1\).svg');
+}
+
+.card-categories {
+  box-sizing: border-box;
+  width: 251px;
+  height: 208px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  mix-blend-mode: normal;
+  border: 1px solid rgba(0,0,0,0.1);
+border-radius: 10px;
+}
+
+.card-categories:hover{
+  background-color: rgb(95, 95, 239);
+  color: white;
+}
+
+.category-name {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.title-categories{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+  display: flex;
+  justify-content: center;
+  width: 227px;
+height: 72px;
+margin-left: 570px;
+
 }
