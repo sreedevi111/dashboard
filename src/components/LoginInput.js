@@ -2,8 +2,10 @@ import React from "react";
 
 function LoginInput() {
   return (
-    <div className="login">
-      <form>
+    <div >
+      <form >
+      <h5> Username</h5>
+        <input type="text" />
         <h5> E-mail</h5>
         <input type="text" />
         <h5> Password</h5>

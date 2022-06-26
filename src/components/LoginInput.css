@@ -1,0 +1,15 @@
+.login{
+    width: 500px;
+    height: 500px;
+    
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
