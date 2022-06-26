@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* width: 227px;
+  height: 72px; */
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.card-img-top {
+  width: 50px;
+}
+
+.icon-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.icon-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.view{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
